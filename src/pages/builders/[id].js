@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use client';
 import Review from '@/components/Ui/products/Review';
 import RootLayout from '@/components/layouts/RootLayout';

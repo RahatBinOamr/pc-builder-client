@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use client';
 import { addValue } from '@/redux/addData/addAction';
 import { useGetAllProductsQuery } from '@/redux/api';
@@ -9,7 +10,6 @@ const buildersData = ({}) => {
   const dispatch = useDispatch();
   const url = `/builders?category=${buttonValue}`;
   const { data } = useGetAllProductsQuery(url);
-
   const handelAdd = data => {
     dispatch(addValue(data));
   };

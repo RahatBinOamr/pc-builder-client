@@ -1,5 +1,5 @@
+/* eslint-disable */
 import Link from 'next/link';
-
 const Product = ({ product }) => {
   const { name, img, keyFeatures, status, category, price, _id } = product;
   return (

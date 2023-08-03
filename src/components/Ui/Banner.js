@@ -48,6 +48,7 @@ const Banner = ({ images }) => {
                     src={image}
                     width={700}
                     className="animate-fadeIn"
+                    alt="banner"
                   />
                 );
               }

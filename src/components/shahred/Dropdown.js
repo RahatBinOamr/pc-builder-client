@@ -7,9 +7,7 @@ const Dropdown = ({ category, setCategory }) => {
           value={category}
           onChange={event => setCategory(event.target.value)}
         >
-          <option aria-readonly value="">
-            All
-          </option>
+          <option value="">All</option>
           <option value="CPU">CPU </option>
           <option value="Motherboard">Motherboard</option>
           <option value="RAM">RAM</option>
